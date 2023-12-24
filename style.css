@@ -39,4 +39,46 @@ header{
     display: flex;
     align-items: center;
     background: url(images/001.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.main h2{
+    color: #f0f0f0;
+    font-size: 4em;
+    font-weight: 500;
+}
+.main h2 span{
+    color: #3e6eff;
+    font-size: 3em;
+    font-weight: 600;
+}
+.main h3{
+    color: antiquewhite;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn{
+    color: #fff;
+    background-color: #3364cf;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    transition: 0.7s ease;
+}
+.main-btn:hover{
+    background: #2f03f1;
+    transform: scale(1.1);
+}
+.social-icon a{
+    color: #fff;
+    padding-right: 30px;
 }
